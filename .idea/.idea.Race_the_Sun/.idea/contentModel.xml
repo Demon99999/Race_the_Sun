@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Dmitry\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Dmitry\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Race_the_Sun.-1350215128.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Dmitry\Race_the_Sun" t="IncludeRecursive">
+    <e p="C:\Users\Dmitry\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Race_the_Sun.1834249769.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Dmitry\Documents\GitHub\Race_the_Sun" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Plugins" t="Include">
           <e p="Epic Toon FX" t="Include">
@@ -1524,6 +1525,74 @@
             </e>
             <e p="Version.txt" t="Include" />
             <e p="zenject.asmdef" t="Include" />
+          </e>
+        </e>
+        <e p="RaseTheSun" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Data" t="Include">
+              <e p="PlayerProgress.cs" t="Include" />
+            </e>
+            <e p="Infrastructure" t="Include">
+              <e p="AssetManagement" t="Include">
+                <e p="AssetLabels.cs" t="Include" />
+                <e p="AssetProvider.cs" t="Include" />
+                <e p="IAssetProvider.cs" t="Include" />
+                <e p="KeyPrefabFactoryAsync.cs" t="Include" />
+                <e p="RefefencePrefabFactoryAsync.cs" t="Include" />
+              </e>
+              <e p="GameBootstrapper.cs" t="Include" />
+              <e p="GameInstaller.cs" t="Include" />
+              <e p="GameStateMachine" t="Include">
+                <e p="GameStateMachine.cs" t="Include" />
+                <e p="GameStateMachineInstaller.cs" t="Include" />
+                <e p="IExitableState.cs" t="Include" />
+                <e p="IPayloadState.cs" t="Include" />
+                <e p="IState.cs" t="Include" />
+                <e p="IStateMachine.cs" t="Include" />
+                <e p="StateMachine.cs" t="Include" />
+                <e p="States" t="Include">
+                  <e p="BootstrapState.cs" t="Include" />
+                  <e p="LoadProgressState.cs" t="Include" />
+                  <e p="MainMenuState.cs" t="Include" />
+                </e>
+                <e p="StatesFactory.cs" t="Include" />
+              </e>
+              <e p="InfrasructureAssetPath.cs" t="Include" />
+              <e p="SceneManagement" t="Include">
+                <e p="ISceneLoader.cs" t="Include" />
+                <e p="SceneLoader.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Services" t="Include">
+              <e p="CoroutineRunner" t="Include">
+                <e p="ICoroutineRunner.cs" t="Include" />
+              </e>
+              <e p="PersistentProgress" t="Include">
+                <e p="IPersistentProgressService.cs" t="Include" />
+                <e p="PersistentProgressService.cs" t="Include" />
+              </e>
+              <e p="SaveLoad" t="Include">
+                <e p="ISaveLoadService.cs" t="Include" />
+                <e p="SaveLoadService.cs" t="Include" />
+              </e>
+              <e p="StaticDataService" t="Include">
+                <e p="Configs" t="Include">
+                  <e p="GameplayWorldConfig.cs" t="Include" />
+                </e>
+                <e p="IStaticDataService.cs" t="Include" />
+                <e p="StaticDataService.cs" t="Include" />
+              </e>
+            </e>
+            <e p="UI" t="Include">
+              <e p="LoadingCurtain" t="Include">
+                <e p="ILoadingCurtain.cs" t="Include" />
+                <e p="LoadingCurtain.cs" t="Include" />
+                <e p="LoadingCurtainProxy.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Utils" t="Include">
+              <e p="DataExtansions.cs" t="Include" />
+            </e>
           </e>
         </e>
       </e>
