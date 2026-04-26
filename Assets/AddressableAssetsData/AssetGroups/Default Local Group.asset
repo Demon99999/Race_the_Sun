@@ -17,8 +17,169 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 40a7ebebc86b9ac4b9ade299cd34e06b
   m_SerializeEntries:
+  - m_GUID: 0784cfcf4b91be347b1e3508cf8ac489
+    m_Address: MainMenuMainCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c0ebbcd7b6db2545b55d03db57fcce8
+    m_Address: DischargedBattery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 244a3b0f66f83cf4db3dfeafdf6316a4
+    m_Address: BasicTrail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3575c54627587a949b874ba0cdf31414
+    m_Address: ChargedBattery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4173dedcf3db4f246bc037fe9517ae5b
+    m_Address: MainMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55abf89365ecfef46913e207c1f33a21
+    m_Address: GreenTrailConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c18e32bb0290f54382f3e23dc1f1608
+    m_Address: SwallowConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de05f615e4263e4f8578da6d73a654c
+    m_Address: BasicTrailConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61179fba1a44f9a4892dfe06a0b5b51e
+    m_Address: TrailPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 672dc5e602426d24ca904977047eb46f
+    m_Address: CustomizeCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6744b53df477dc94e910c35f061b4bd2
+    m_Address: CrawlerConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f263bed302373745bf9eb26292a8160
+    m_Address: TrailCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 755b573ca63c72442b73dee091ba8b9b
+    m_Address: SpikeTrailConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7be26657ffdf1ec4d8c3d2a1e6964415
+    m_Address: TheArrowModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 80ecdc2a3cbe29b4e8a0f5e825af7d46
     m_Address: LoadingCurtain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8171665c18ba3dd4a9404be0c661a236
+    m_Address: SwallowModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8889b17a5b8777e488d5cdf4f66d212f
+    m_Address: CrawlerModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ba315a323ca4c642bb01a9cbabf150f
+    m_Address: PurpuleTrail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3f6c9f0715d64c4fad9615bc110f748
+    m_Address: GameplayWorldConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab372b7d95f37da44b25f35f648235d5
+    m_Address: GreenTrail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b797b0688ddf0e04f871ae113b789c5d
+    m_Address: NatalusModel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba574f434f1b4e441a1c7b7820bf801f
+    m_Address: ModelPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf56c355de7453b449420ea8b21ae0b9
+    m_Address: BlueFlameTrailConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5c627183e9136c40a78f6c6624b1fb8
+    m_Address: SelectionCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9d7552938bf6064c9eb2bd2298342ff
+    m_Address: NatalusConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4f3a3716210a414090e3a9ebc29e3ce
+    m_Address: TheArrowConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d60693bfc44e01f43bced67ef4a3ae0a
+    m_Address: MainMenuScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de22e0d501cebae4bb79cf82510743d1
+    m_Address: PurpleTrailConfig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2393d10e79546f438653e206606a288
+    m_Address: BlueFlameTrail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5c6ac151af7b3048a7ad7e7d15097c0
+    m_Address: LowBattery
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e60bd3e3b9de4284b98ec4c01c382f19
+    m_Address: SpikeTrail
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

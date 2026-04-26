@@ -23,7 +23,7 @@ namespace RaseTheSun.Scripts.Infrastructure
             _gameStateMachine.RegisterState(_statesFactory.Create<BootstrapState>());
             _gameStateMachine.RegisterState(_statesFactory.Create<LoadProgressState>());
             _gameStateMachine.RegisterState(_statesFactory.Create<MainMenuState>());
-            //_gameStateMachine.RegisterState(_statesFactory.Create<GameLoopState>());
+            _gameStateMachine.RegisterState(_statesFactory.Create<GameLoopState>());
             
             _gameStateMachine.Enter<BootstrapState>().Forget();
 

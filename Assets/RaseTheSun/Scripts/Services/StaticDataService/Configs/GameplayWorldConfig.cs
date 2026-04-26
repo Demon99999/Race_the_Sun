@@ -8,6 +8,6 @@ namespace RaseTheSun.Scripts.Services.StaticDataService.Configs
         public int CellLength;
         public int RenderDistacne;
 
-        //public StageConfig[] StageConfigs;
+        public StageConfig[] StageConfigs;
     }
 }
