@@ -76,8 +76,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Configs
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d46274406e8075498b06f9387241d2e
+    m_Address: SpaceshipMainCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 6f263bed302373745bf9eb26292a8160
     m_Address: TrailCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fc3fea06ef7ffa48ae9e83a04dd8613
+    m_Address: ShieldPortalCamera
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -128,6 +138,12 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9854da21f6c88e41939b742978d26f0
+    m_Address: GameplayScene
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Scene
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: ba574f434f1b4e441a1c7b7820bf801f
     m_Address: ModelPoint
     m_ReadOnly: 0
@@ -139,8 +155,18 @@ MonoBehaviour:
     m_SerializedLabels:
     - Configs
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c01f1e2758992b44e959afc7f2d1408b
+    m_Address: CollisionPortalCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c5c627183e9136c40a78f6c6624b1fb8
     m_Address: SelectionCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c72f1cd314a81ff45a5e7d58d6aa00ba
+    m_Address: StartCamera
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -161,6 +187,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - Scene
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dde54942e840d6443b0e081a78dcab9b
+    m_Address: SpaceshipUpperCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddef8c0e20db0ac4dbae4ffd3a160d2d
+    m_Address: SpaceshipSideCamera
+    m_ReadOnly: 0
+    m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: de22e0d501cebae4bb79cf82510743d1
     m_Address: PurpleTrailConfig

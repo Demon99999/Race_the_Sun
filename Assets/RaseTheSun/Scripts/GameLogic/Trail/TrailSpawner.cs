@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.RaceTheSun.Sources.Data;
+using RaseTheSun.Scripts.Data;
 using RaseTheSun.Scripts.Infrastructure.Factories.SpaceshipModelFactory;
 using RaseTheSun.Scripts.Services.PersistentProgress;
 using UnityEngine;
@@ -24,9 +24,8 @@ namespace RaseTheSun.Scripts.GameLogic.Trail
 
             _createdeTrails = new List<Trail>();
         }
-
-        //private void Start() =>
-            //CreateTrails(_persistentProgressService.Progress.AvailableSpaceships.GetSpaceshipData(_spaceshipType).TrailType);
+        private void Start() =>
+            CreateTrails(_persistentProgressService.Progress.AvailableSpaceships.GetSpaceshipData(_spaceshipType).TrailType);
 
         public async void CreateTrails(TrailType type)
         {

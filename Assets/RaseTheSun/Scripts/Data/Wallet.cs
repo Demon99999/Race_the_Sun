@@ -1,0 +1,29 @@
+﻿using System;
+
+namespace RaseTheSun.Scripts.Data
+{
+    [Serializable]
+    public class Wallet
+    {
+        public int Value;
+
+        public event Action<int> ValueChanged;
+
+        public void Give(int value)
+        {
+            Value += value;
+            ValueChanged?.Invoke(Value);
+        }
+
+        public bool TryTake(int value)
+        {
+            if (value > Value)
+                return false;
+
+            Value -= value;
+            ValueChanged?.Invoke(Value);
+
+            return true;
+        }
+    }
+}

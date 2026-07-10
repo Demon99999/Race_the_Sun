@@ -1,0 +1,37 @@
+﻿using System;
+
+namespace RaseTheSun.Scripts.Gameplay.Counters
+{
+    public class MultiplierProgressCounter
+    {
+        private const int ScoreItemsToMultiplyProgress = 5;
+
+        private int _scoreItemsProgress;
+
+        public MultiplierProgressCounter()
+        {
+            _scoreItemsProgress = 0;
+            Multiplier = 1;
+        }
+
+        public event Action<int> MultiplierChanged;
+        public event Action<int> MultiplierProgressChanged;
+
+        public int Multiplier { get; private set; }
+
+        public void GiveScoreItem()
+        {
+            _scoreItemsProgress++;
+            MultiplierProgressChanged?.Invoke(_scoreItemsProgress);
+
+            if (_scoreItemsProgress == ScoreItemsToMultiplyProgress)
+            {
+                Multiplier++;
+                _scoreItemsProgress = 0;
+
+                MultiplierChanged?.Invoke(Multiplier);
+                MultiplierProgressChanged?.Invoke(_scoreItemsProgress);
+            }
+        }
+    }
+}

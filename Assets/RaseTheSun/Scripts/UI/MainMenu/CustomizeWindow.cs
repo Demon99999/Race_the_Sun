@@ -1,0 +1,35 @@
+﻿using RaseTheSun.Scripts.GameLogic.Cameras.MainMenu;
+using RaseTheSun.Scripts.Services.StaticDataService;
+using RaseTheSun.Scripts.UI.MainMenu.Spaceships;
+using TMPro;
+using UnityEngine;
+using Zenject;
+
+namespace RaseTheSun.Scripts.UI.MainMenu
+{
+    public class CustomizeWindow : OpenableWindow
+    {
+        [SerializeField] private TMP_Text _currentSpaceshipName;
+        [SerializeField] private CurrentClickedSpaceshipInfo _currentClickedSpaceshipInfo;
+
+        private MainMenuCameras _mainMenuCameras;
+        private IStaticDataService _staticDataService;
+
+        [Inject]
+        private void Construct(MainMenuCameras mainMenuCameras, IStaticDataService staticDataService)
+        {
+            _mainMenuCameras = mainMenuCameras;
+            _staticDataService = staticDataService;
+        }
+
+        public override void Hide() =>
+            gameObject.SetActive(false);
+
+        public override void Open()
+        {
+            _mainMenuCameras.IncludeCamera(MainMenuCameraType.CustomizeCamera);
+            _currentSpaceshipName.text = _staticDataService.GetSpaceship(_currentClickedSpaceshipInfo.SpaceshipType).Name;
+            gameObject.SetActive(true);
+        }
+    }
+}

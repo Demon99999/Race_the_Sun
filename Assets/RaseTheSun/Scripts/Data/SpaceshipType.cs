@@ -1,4 +1,4 @@
-﻿namespace Assets.RaceTheSun.Sources.Data
+﻿namespace RaseTheSun.Scripts.Data
 {
     public enum SpaceshipType
     {

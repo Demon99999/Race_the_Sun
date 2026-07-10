@@ -1,5 +1,5 @@
-﻿using Assets.RaceTheSun.Sources.Data;
-using Cysharp.Threading.Tasks;
+﻿using Cysharp.Threading.Tasks;
+using RaseTheSun.Scripts.Data;
 using RaseTheSun.Scripts.GameLogic.Trail;
 using RaseTheSun.Scripts.Infrastructure.Factories.SpaceshipModelFactory;
 using RaseTheSun.Scripts.Services.PersistentProgress;

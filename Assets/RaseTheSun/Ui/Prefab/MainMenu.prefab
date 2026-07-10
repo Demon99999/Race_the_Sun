@@ -2742,6 +2742,7 @@ GameObject:
   - component: {fileID: 1697071319244725733}
   - component: {fileID: 6706918524089128558}
   - component: {fileID: 1307219385917836975}
+  - component: {fileID: 8312961143179145506}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -2928,6 +2929,19 @@ MonoBehaviour:
     - {r: 0, g: 0, b: 0, a: 0}
     - {r: 0, g: 0, b: 0, a: 0}
     m_Rotation: 90
+--- !u!114 &8312961143179145506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078983692832482088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2892aa62aa11c3341bce1b844e5c0da9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _button: {fileID: 6706918524089128558}
 --- !u!1 &3177579800128673421
 GameObject:
   m_ObjectHideFlags: 0

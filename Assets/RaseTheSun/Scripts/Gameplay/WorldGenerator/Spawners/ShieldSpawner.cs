@@ -1,0 +1,27 @@
+﻿using RaseTheSun.Scripts.Data;
+using RaseTheSun.Scripts.Infrastructure.Factories.GameplayFactory;
+using RaseTheSun.Scripts.Services.PersistentProgress;
+using UnityEngine;
+using Zenject;
+
+namespace RaseTheSun.Scripts.Gameplay.WorldGenerator.Spawners
+{
+    public class ShieldSpawner : MonoBehaviour
+    {
+        private IGameplayFactory _gameplayFactory;
+        private PersistentProgressService _persistentProgressService;
+
+        [Inject]
+        private void Construct(IGameplayFactory gameplayFacory, PersistentProgressService persistentProgressService)
+        {
+            _gameplayFactory = gameplayFacory;
+            _persistentProgressService = persistentProgressService;
+        }
+
+        private async void Start()
+        {
+            if (_persistentProgressService.Progress.Upgrading.IsUpgraded(UpgradeType.ShieldPortal))
+                await _gameplayFactory.CreateShield(transform.position, transform);
+        }
+    }
+}

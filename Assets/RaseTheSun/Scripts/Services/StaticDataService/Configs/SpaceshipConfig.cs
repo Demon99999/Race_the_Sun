@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Assets.RaceTheSun.Sources.Data;
+using RaseTheSun.Scripts.Data;
 using RaseTheSun.Scripts.Gameplay.Spaceship.Battery.Indicator;
 using UnityEngine;
 using UnityEngine.AddressableAssets;

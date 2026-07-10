@@ -20,18 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f6f870bf-b806-43c1-8905-b611fb9a8e64" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/MainMenuInstaller.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/MainMenuInstaller.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/CollectItems/ItemVisitor/CollectItems.ItemVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/CollectItems/ItemVisitor/CollectItems.ItemVisitor.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Race_the_Sun/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race_the_Sun/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Race_the_Sun/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Race_the_Sun/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AddressableAssetSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Resources/ProjectContext.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Resources/ProjectContext.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scenes/Init.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scenes/Init.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameBootstrapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameBootstrapper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/GameplayWorldConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/GameplayWorldConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/PlayerProgress.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/PlayerProgress.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/SpaceshipType.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/SpaceshipType.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/ISpaceshipModelFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/ISpaceshipModelFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactory.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactory.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/Model/ModelSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/Model/ModelSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SpaceshipConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SpaceshipConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/IStaticDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/IStaticDataService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/StaticDataService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/StaticDataService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RaseTheSun/Ui/Prefab/MainMenu.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RaseTheSun/Ui/Prefab/MainMenu.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,111 +46,190 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/UpgradeType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/TrailCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/CoroutineRunner/ICoroutineRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Collision/ImpassableEnvironment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Utils/DataExtansions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.22.3/Runtime/AddressablesImpl.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.addressables@1.22.3/Runtime/AddressablesImpl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SkyboxConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/TrailConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/AssetProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/Hud/Hud.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/RefefencePrefabFactoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/CameraPriority.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/SpeedDecorator/BatterySpeed.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/Education.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/MainMenuCameras.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/CollectItems/Effects/CollectItemEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/CloseCurrentOpenWindowButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Movement/CutSceneMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/StageInfo/CurrentGenerationStage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/LevelProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/PlayButton.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/ISpaceshipModelFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Audio/CollectItemsSoundEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactoryInstaller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/StatesFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SpaceshipConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/IAssetProvider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/IStaticDataService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/GameStateMachineInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Collision/CollisionFx.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/SceneManagement/SceneLoader.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/PlayerProgress.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$USER_HOME$/Race_the_Sun/Assets/Plugins/UniTask/Runtime/UniTask.Factory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/ShopWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/StatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/GameplayFactory/GameplayFactoryInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/GameOverPanel/ResultScoreItems.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/States/GameLoopState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/FreeLookCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/ModelPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StatConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Movement/SpaceshipMovement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/StageInfo/CurrentSpaceshipStage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactoryAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/OpenableWindow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/GameplayFactory/GameplayFactoryInjectId.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/Model/ModelSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/Input/GameInputAction.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/ModelPointCamera.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactoryInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/MysteryBoxesData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StatType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/SpaceShipData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/DistanceObserver/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Attachment/ShieldsStorage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactory.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/PersistentProgress/IPersistentProgressService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.10.7/Runtime/Core/AxisState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Battery/Battery.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/SpaceshipDie.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/GameOverPanel/ResultPanel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/MainMenuBootstrapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/AssetLabels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/CameraButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Bird/Bird.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/GameplayWorldConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/GameplayFactory/GameplayFactoryAssets.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Collision/CollisionChecker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/StateMachine.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StageConfig.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/SaveLoad/SaveLoadService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/Input/IInputService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/KeyPrefabFactoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/AttachmentConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/LevelsConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/CollectItems/Items/JumpBoost.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Wall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Settings/SettingsWindow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/MainMenuFactory/MainMenuFactoryInstaller.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/Stage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/IStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Battery/Indicator/BatteryMaterialInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Spaceship.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/EnviromentAnimation/EnviromentAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/StateMachine/States/GameplayLoopState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/AvailableSpaceShips.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/GameOverPanel/GameOverPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/CoroutineRunner/ICoroutineRunner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Sun/Sun.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Collision/CollisionInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/AudioSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Spawners/JumpBoostSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/TrailPanel/TrailButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/TrailConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/AssetProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/AvailableTrails.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/CameraPriority.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Movement/SpaceshipTurning.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Audio/StageMusic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MainMenu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Counters/MultiplierProgressCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/AttachmentPanel/AttachmentButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/GameStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/BonusStageNumberTile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/ISpaceshipModelFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Animations/AnimationPath.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/WaitingService/IWaitingService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/MysteryBoxRewardsConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/GameStateMachineInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/MysteryBoxesCountPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/PlayerProgress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Movement/SpaceshipJump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/Hud/PerfectStagePanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/StateMachine/States/GameplayStartState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Race_the_Sun/Assets/Plugins/UniTask/Runtime/UniTask.Factory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/Tile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/FreeLookCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/AvailableStatsToUpgrade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Battery/Indicator/BatteryCell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/Gameplay/GameplayCamerasFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/ModelPointCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactoryInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/PersistentProgress/IPersistentProgressService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.10.7/Runtime/Core/AxisState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/BatteryInfoButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/TimeScale/TimeScaleType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/GameOverPanel/RevivalPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Data/Wallet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/AssetLabels.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/StateMachine/GameplayStateMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/CurrentClickedSpaceshipInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StageConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/Gameplay/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/SaveLoad/SaveLoadService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Portals/BonusStagePortal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C9E847ED-2BAF-4284-8D70-833560C74034/10/83d24a75/Attachment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/ActivityTracking/ActivityTracking.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Portals/CollisionPortalPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/GameplayInstaller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/CollectItems/ItemVisitor/IItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/AssetManagement/KeyPrefabFactoryAsync.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/Hud/JumpPanel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/GameOverPanel/MultipliplyScoreItemsButton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/Stage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/GameplayFactory/GameplayFactory.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/PersistentProgress/PersistentProgressService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Utils/DataExtansions.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/SaveLoad/SaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/SaveLoad/ISaveLoadService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/States/LoadProgressState.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/SceneManagement/SceneLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/States/MainMenuState.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/States/BootstrapState.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/EnviromentAnimation/EnviromentAnimation.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/Trail.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailType.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactoryAssets.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/CameraPriority.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/FreeLookCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/MainMenuCameraType.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/TrailCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/MainMenuCameras.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/IMainMenuCamerasFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/CamerasFactory/MainMenu/MainMenuCamerasFactoryInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Cameras/MainMenu/ModelPointCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/Model/ModelSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Movement/SpaceshipJump.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/StateMachine/States/GameplayLoopState.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/BonusStageNumberTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/FinishBonusStageTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/StartBetweenStageTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/StartStageTile.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Tiles/Tile.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Spawners/JumpBoostSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/WorldGenerator/Spawners/ShieldSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/GameLogic/Trail/TrailSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/ISpaceshipModelFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModel.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactoryInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/SpaceshipModelFactory/SpaceshipModelFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/Stage.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SkyboxConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StageConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StatType.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/StatConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Gameplay/Spaceship/Battery/Indicator/BatteryMaterialInfo.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/SpaceshipConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/TrailConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/Configs/GameplayWorldConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/IStaticDataService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameStateMachine/States/GameLoopState.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/PlayButton.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/GameBootstrapper.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MainMenu.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/MainMenuFactory/MainMenuFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/MainMenuFactory/MainMenuFactoryAssets.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/MainMenuFactory/MainMenuFactoryInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Infrastructure/Factories/MainMenuFactory/IMainMenuFactory.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/MainMenuInstaller.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/StaticDataService/StaticDataService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/Input/IInputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/Services/Input/InputService.cs" />
-        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/MainMenu/MainMenuBootstrapper.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/CameraButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/RaycastTarget.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/ShopWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/UnlockedLevelInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/WalletView.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/WindowCloseButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/WindowInteractionButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/WindowOpenButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/CloseCurrentOpenWindowButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/BatteryInfoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/CurrentClickedButtonsPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/CurrentClickedSpacehipWatcher.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/CurrentClickedSpaceshipInfo.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/ExperienceMultiplierInfoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/FloatTimeInfoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/InformationButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/InformationPanelActivator.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/LevelProgressButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/PickUpRangeInfoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/SpaceshipButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/SpaceshipStatPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/SpaceshipsWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Spaceships/StatInfoButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/CustomizeWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Education.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/ExperienceProgressPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MainInfoWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/TrailPanel/TrailButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/TrailPanel/TrailInfoPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/TrailPanel/TrailWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/Settings/SettingsWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/MysteryBoxesCountPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/MysteryBoxWindow.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/MysteryBoxWindowOpenButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/RewardPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/RewardsInfoPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/MysteryBox/TimePanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/AttachmentPanel/AttachmentButton.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/AttachmentPanel/AttachmentCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/AttachmentPanel/AttachmentInfoPanel.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaseTheSun/Scripts/UI/MainMenu/AttachmentPanel/AttachmentWindow.cs" />
       </list>
     </option>
   </component>
@@ -200,6 +283,11 @@
       <workItem from="1775661651041" duration="7548000" />
       <workItem from="1776782036688" duration="1006000" />
       <workItem from="1777205950318" duration="13715000" />
+      <workItem from="1779105695260" duration="6787000" />
+      <workItem from="1779117099759" duration="3457000" />
+      <workItem from="1779907489597" duration="4983000" />
+      <workItem from="1780407567126" duration="6898000" />
+      <workItem from="1783685445932" duration="5231000" />
     </task>
     <servers />
   </component>

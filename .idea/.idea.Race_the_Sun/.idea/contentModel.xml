@@ -1530,12 +1530,62 @@
         <e p="RaseTheSun" t="Include">
           <e p="Scripts" t="Include">
             <e p="Data" t="Include">
+              <e p="AudioSettings.cs" t="Include" />
+              <e p="AvailableSpaceShips.cs" t="Include" />
+              <e p="AvailableStatsToUpgrade.cs" t="Include" />
+              <e p="AvailableTrails.cs" t="Include" />
+              <e p="Education.cs" t="Include" />
+              <e p="LevelProgress.cs" t="Include" />
+              <e p="MysteryBoxesData.cs" t="Include" />
               <e p="PlayerProgress.cs" t="Include" />
+              <e p="SpaceShipData.cs" t="Include" />
+              <e p="SpaceshipMainCameraSettings.cs" t="Include" />
               <e p="SpaceshipType.cs" t="Include" />
+              <e p="StatData.cs" t="Include" />
+              <e p="UpgradeType.cs" t="Include" />
+              <e p="UpgradingData.cs" t="Include" />
+              <e p="Wallet.cs" t="Include" />
             </e>
             <e p="GameLogic" t="Include">
+              <e p="Animations" t="Include">
+                <e p="AnimationPath.cs" t="Include" />
+                <e p="GameOverPanelAnimationElement.cs" t="Include" />
+                <e p="HudAnimation.cs" t="Include" />
+                <e p="HudAnimationElement.cs" t="Include" />
+                <e p="MillAnimation.cs" t="Include" />
+              </e>
+              <e p="Attachment" t="Include">
+                <e p="Attachment.cs" t="Include" />
+                <e p="AttachmentCellsUpgrader.cs" t="Include" />
+                <e p="AttachmentStats.cs" t="Include" />
+                <e p="AttachmentStatsDecorator.cs" t="Include" />
+                <e p="DefaultAttachmentStats.cs" t="Include" />
+                <e p="IAttachmentStatsProvider.cs" t="Include" />
+                <e p="JumpBoostsStorage.cs" t="Include" />
+                <e p="MagnetBoost.cs" t="Include" />
+                <e p="ShieldsStorage.cs" t="Include" />
+              </e>
+              <e p="Audio" t="Include">
+                <e p="CollectItemsSoundEffects.cs" t="Include" />
+                <e p="JumpSound.cs" t="Include" />
+                <e p="SoundPlayer.cs" t="Include" />
+                <e p="SpeedBoostSound.cs" t="Include" />
+                <e p="StageMusic.cs" t="Include" />
+              </e>
               <e p="Cameras" t="Include">
                 <e p="CameraPriority.cs" t="Include" />
+                <e p="Gameplay" t="Include">
+                  <e p="CameraShake.cs" t="Include" />
+                  <e p="CollisionPortalCamera.cs" t="Include" />
+                  <e p="GameplayCameras.cs" t="Include" />
+                  <e p="GameplayCameraType.cs" t="Include" />
+                  <e p="ShieldPortalCamera.cs" t="Include" />
+                  <e p="SpaceshipMainCamera.cs" t="Include" />
+                  <e p="SpaceshipSideCamera.cs" t="Include" />
+                  <e p="SpaceshipUpperCamera.cs" t="Include" />
+                  <e p="StartCamera.cs" t="Include" />
+                  <e p="VirtualCamera.cs" t="Include" />
+                </e>
                 <e p="MainMenu" t="Include">
                   <e p="FreeLookCamera.cs" t="Include" />
                   <e p="MainMenuCameras.cs" t="Include" />
@@ -1551,12 +1601,120 @@
               </e>
             </e>
             <e p="Gameplay" t="Include">
+              <e p="Bird" t="Include">
+                <e p="Bird.cs" t="Include" />
+              </e>
+              <e p="CollectItems" t="Include">
+                <e p="Effects" t="Include">
+                  <e p="CollectItemEffect.cs" t="Include" />
+                  <e p="DestroyItemEffect.cs" t="Include" />
+                </e>
+                <e p="Items" t="Include">
+                  <e p="JumpBoost.cs" t="Include" />
+                  <e p="MysteryBox.cs" t="Include" />
+                  <e p="ScoreItem.cs" t="Include" />
+                  <e p="Shield.cs" t="Include" />
+                  <e p="SpeedBoost.cs" t="Include" />
+                </e>
+                <e p="ItemVisitor" t="Include">
+                  <e p="CollectItems.cs" t="Include" />
+                  <e p="CollectItems.ItemVisitor.cs" t="Include" />
+                  <e p="IItem.cs" t="Include" />
+                  <e p="IItemVisitor.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Counters" t="Include">
+                <e p="MultiplierProgressCounter.cs" t="Include" />
+                <e p="ScoreCounter.cs" t="Include" />
+                <e p="ScoreItemsCounter.cs" t="Include" />
+              </e>
+              <e p="DistanceObserver" t="Include">
+                <e p="BonusStageMovableElement.cs" t="Include" />
+                <e p="DistanceObservable.cs" t="Include" />
+                <e p="InteractableEnvironment.cs" t="Include" />
+                <e p="IObserver.cs" t="Include" />
+                <e p="MovableSphere.cs" t="Include" />
+                <e p="ObserverInfo.cs" t="Include" />
+              </e>
+              <e p="GameplayBootstrapper.cs" t="Include" />
+              <e p="GameplayInstaller.cs" t="Include" />
+              <e p="Portals" t="Include">
+                <e p="BonusStagePortal.cs" t="Include" />
+                <e p="CollisionPortalPoint.cs" t="Include" />
+                <e p="FinishStagePortal.cs" t="Include" />
+                <e p="ShieldPortal.cs" t="Include" />
+                <e p="SpaceshipShieldPortal.cs" t="Include" />
+              </e>
               <e p="Spaceship" t="Include">
                 <e p="Battery" t="Include">
+                  <e p="Battery.cs" t="Include" />
                   <e p="Indicator" t="Include">
+                    <e p="BatteryCell.cs" t="Include" />
+                    <e p="BatteryIndicator.cs" t="Include" />
                     <e p="BatteryMaterialInfo.cs" t="Include" />
+                    <e p="LastBatteryCell.cs" t="Include" />
                   </e>
                 </e>
+                <e p="Collision" t="Include">
+                  <e p="CollisionChecker.cs" t="Include" />
+                  <e p="CollisionFx.cs" t="Include" />
+                  <e p="CollisionInfo.cs" t="Include" />
+                  <e p="DestroySpaceshipFx.cs" t="Include" />
+                  <e p="ImpassableEnvironment.cs" t="Include" />
+                </e>
+                <e p="ModelPoint.cs" t="Include" />
+                <e p="Movement" t="Include">
+                  <e p="CutSceneMovement.cs" t="Include" />
+                  <e p="SpaceshipFloat.cs" t="Include" />
+                  <e p="SpaceshipJump.cs" t="Include" />
+                  <e p="SpaceshipMovement.cs" t="Include" />
+                  <e p="SpaceshipTurning.cs" t="Include" />
+                </e>
+                <e p="Plane.cs" t="Include" />
+                <e p="Spaceship.cs" t="Include" />
+                <e p="SpaceshipDie.cs" t="Include" />
+                <e p="SpeedDecorator" t="Include">
+                  <e p="BatterySpeed.cs" t="Include" />
+                  <e p="BoostedSpeed.cs" t="Include" />
+                  <e p="CollisionSpeed.cs" t="Include" />
+                  <e p="ISpeedProvider.cs" t="Include" />
+                  <e p="SpaceshipSpeed.cs" t="Include" />
+                  <e p="SpeedDecorator.cs" t="Include" />
+                </e>
+              </e>
+              <e p="StateMachine" t="Include">
+                <e p="GameplayStateMachine.cs" t="Include" />
+                <e p="GameplayStateMachineInstaller.cs" t="Include" />
+                <e p="States" t="Include">
+                  <e p="GameplayEndState.cs" t="Include" />
+                  <e p="GameplayLoopState.cs" t="Include" />
+                  <e p="GameplayResultState.cs" t="Include" />
+                  <e p="GameplayRevivalState.cs" t="Include" />
+                  <e p="GameplayStartState.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Sun" t="Include">
+                <e p="SkyboxSettingsChanger.cs" t="Include" />
+                <e p="Sun.cs" t="Include" />
+              </e>
+              <e p="WorldGenerator" t="Include">
+                <e p="Spawners" t="Include">
+                  <e p="JumpBoostSpawner.cs" t="Include" />
+                  <e p="ShieldSpawner.cs" t="Include" />
+                </e>
+                <e p="StageInfo" t="Include">
+                  <e p="CurrentGenerationStage.cs" t="Include" />
+                  <e p="CurrentSpaceshipStage.cs" t="Include" />
+                </e>
+                <e p="Tiles" t="Include">
+                  <e p="BonusStageNumberTile.cs" t="Include" />
+                  <e p="FinishBonusStageTile.cs" t="Include" />
+                  <e p="StartBetweenStageTile.cs" t="Include" />
+                  <e p="StartStageTile.cs" t="Include" />
+                  <e p="Tile.cs" t="Include" />
+                </e>
+                <e p="Wall.cs" t="Include" />
+                <e p="WorldGenerator.cs" t="Include" />
               </e>
             </e>
             <e p="Infrastructure" t="Include">
@@ -1569,12 +1727,25 @@
               </e>
               <e p="Factories" t="Include">
                 <e p="CamerasFactory" t="Include">
+                  <e p="Gameplay" t="Include">
+                    <e p="GameplayCamerasFactory.cs" t="Include" />
+                    <e p="GameplayCamerasFactoryAssets.cs" t="Include" />
+                    <e p="GameplayCamerasFactoryInstaller.cs" t="Include" />
+                    <e p="IGameplayCamerasFactory.cs" t="Include" />
+                  </e>
                   <e p="MainMenu" t="Include">
                     <e p="IMainMenuCamerasFactory.cs" t="Include" />
                     <e p="MainMenuCamerasFactory.cs" t="Include" />
                     <e p="MainMenuCamerasFactoryAssets.cs" t="Include" />
                     <e p="MainMenuCamerasFactoryInstaller.cs" t="Include" />
                   </e>
+                </e>
+                <e p="GameplayFactory" t="Include">
+                  <e p="GameplayFactory.cs" t="Include" />
+                  <e p="GameplayFactoryAssets.cs" t="Include" />
+                  <e p="GameplayFactoryInjectId.cs" t="Include" />
+                  <e p="GameplayFactoryInstaller.cs" t="Include" />
+                  <e p="IGameplayFactory.cs" t="Include" />
                 </e>
                 <e p="MainMenuFactory" t="Include">
                   <e p="IMainMenuFactory.cs" t="Include" />
@@ -1626,6 +1797,9 @@
               <e p="PlayButton.cs" t="Include" />
             </e>
             <e p="Services" t="Include">
+              <e p="ActivityTracking" t="Include">
+                <e p="ActivityTracking.cs" t="Include" />
+              </e>
               <e p="CoroutineRunner" t="Include">
                 <e p="ICoroutineRunner.cs" t="Include" />
               </e>
@@ -1644,7 +1818,11 @@
               </e>
               <e p="StaticDataService" t="Include">
                 <e p="Configs" t="Include">
+                  <e p="AttachmentConfig.cs" t="Include" />
                   <e p="GameplayWorldConfig.cs" t="Include" />
+                  <e p="LevelsConfig.cs" t="Include" />
+                  <e p="LevelUnclockInfoConfig.cs" t="Include" />
+                  <e p="MysteryBoxRewardsConfig.cs" t="Include" />
                   <e p="SkyboxConfig.cs" t="Include" />
                   <e p="SpaceshipConfig.cs" t="Include" />
                   <e p="Stage.cs" t="Include" />
@@ -1656,16 +1834,90 @@
                 <e p="IStaticDataService.cs" t="Include" />
                 <e p="StaticDataService.cs" t="Include" />
               </e>
+              <e p="TimeScale" t="Include">
+                <e p="ITimeScale.cs" t="Include" />
+                <e p="TimeScale.cs" t="Include" />
+                <e p="TimeScaleType.cs" t="Include" />
+              </e>
+              <e p="WaitingService" t="Include">
+                <e p="IWaitingService.cs" t="Include" />
+                <e p="WaitingService.cs" t="Include" />
+              </e>
             </e>
             <e p="UI" t="Include">
+              <e p="CameraButton.cs" t="Include" />
+              <e p="GameOverPanel" t="Include">
+                <e p="GameOverPanel.cs" t="Include" />
+                <e p="MultipliplyScoreItemsButton.cs" t="Include" />
+                <e p="ResultPanel.cs" t="Include" />
+                <e p="ResultScoreItems.cs" t="Include" />
+                <e p="ResultScorePanel.cs" t="Include" />
+                <e p="RevivalPanel.cs" t="Include" />
+              </e>
+              <e p="Hud" t="Include">
+                <e p="Hud.cs" t="Include" />
+                <e p="JumpPanel.cs" t="Include" />
+                <e p="PerfectStagePanel.cs" t="Include" />
+              </e>
               <e p="LoadingCurtain" t="Include">
                 <e p="ILoadingCurtain.cs" t="Include" />
                 <e p="LoadingCurtain.cs" t="Include" />
                 <e p="LoadingCurtainProxy.cs" t="Include" />
               </e>
               <e p="MainMenu" t="Include">
+                <e p="AttachmentPanel" t="Include">
+                  <e p="AttachmentButton.cs" t="Include" />
+                  <e p="AttachmentCell.cs" t="Include" />
+                  <e p="AttachmentInfoPanel.cs" t="Include" />
+                  <e p="AttachmentWindow.cs" t="Include" />
+                </e>
+                <e p="CloseCurrentOpenWindowButton.cs" t="Include" />
+                <e p="CustomizeWindow.cs" t="Include" />
+                <e p="Education.cs" t="Include" />
+                <e p="ExperienceProgressPanel.cs" t="Include" />
+                <e p="MainInfoWindow.cs" t="Include" />
                 <e p="MainMenu.cs" t="Include" />
+                <e p="MysteryBox" t="Include">
+                  <e p="MysteryBoxesCountPanel.cs" t="Include" />
+                  <e p="MysteryBoxWindow.cs" t="Include" />
+                  <e p="MysteryBoxWindowOpenButton.cs" t="Include" />
+                  <e p="RewardPanel.cs" t="Include" />
+                  <e p="RewardsInfoPanel.cs" t="Include" />
+                  <e p="TimePanel.cs" t="Include" />
+                </e>
+                <e p="OpenableWindow.cs" t="Include" />
+                <e p="Settings" t="Include">
+                  <e p="SettingsWindow.cs" t="Include" />
+                </e>
+                <e p="ShopWindow.cs" t="Include" />
+                <e p="Spaceships" t="Include">
+                  <e p="BatteryInfoButton.cs" t="Include" />
+                  <e p="CurrentClickedButtonsPanel.cs" t="Include" />
+                  <e p="CurrentClickedSpacehipWatcher.cs" t="Include" />
+                  <e p="CurrentClickedSpaceshipInfo.cs" t="Include" />
+                  <e p="ExperienceMultiplierInfoButton.cs" t="Include" />
+                  <e p="FloatTimeInfoButton.cs" t="Include" />
+                  <e p="InformationButton.cs" t="Include" />
+                  <e p="InformationPanelActivator.cs" t="Include" />
+                  <e p="LevelProgressButton.cs" t="Include" />
+                  <e p="PickUpRangeInfoButton.cs" t="Include" />
+                  <e p="SpaceshipButton.cs" t="Include" />
+                  <e p="SpaceshipStatPanel.cs" t="Include" />
+                  <e p="SpaceshipsWindow.cs" t="Include" />
+                  <e p="StatInfoButton.cs" t="Include" />
+                </e>
+                <e p="TrailPanel" t="Include">
+                  <e p="TrailButton.cs" t="Include" />
+                  <e p="TrailInfoPanel.cs" t="Include" />
+                  <e p="TrailWindow.cs" t="Include" />
+                </e>
+                <e p="UnlockedLevelInfo.cs" t="Include" />
+                <e p="WalletView.cs" t="Include" />
+                <e p="WindowCloseButton.cs" t="Include" />
+                <e p="WindowInteractionButton.cs" t="Include" />
+                <e p="WindowOpenButton.cs" t="Include" />
               </e>
+              <e p="RaycastTarget.cs" t="Include" />
             </e>
             <e p="Utils" t="Include">
               <e p="DataExtansions.cs" t="Include" />
